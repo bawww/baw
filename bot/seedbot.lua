@@ -211,6 +211,7 @@ function create_config( )
     "onservice",
     "inrealm",
     "ingroup",
+    "autoleave",
     "addplug",
     "inpm",
     "plugins",
