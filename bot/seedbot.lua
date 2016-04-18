@@ -233,67 +233,65 @@ function create_config( )
     help_text_realm = [[
 Realm Commands:
 
-!creategroup [name]
+creategroup [name]
 Create a group
 
-!createrealm [name]
+createrealm [name]
 Create a realm
 
-!setname [name]
+setname [name]
 Set realm name
 
-!setabout [group_id] [text]
+setabout [group_id] [text]
 Set a group's about text
 
-!setrules [grupo_id] [text]
+setrules [grupo_id] [text]
 Set a group's rules
 
-!lock [grupo_id] [setting]
+lock [grupo_id] [setting]
 Lock a group's setting
 
-!unlock [grupo_id] [setting]
+unlock [grupo_id] [setting]
 Unock a group's setting
 
-!wholist
+wholist
 Get a list of members in group/realm
 
-!who
+who
 Get a file of members in group/realm
 
-!type
+type
 Get group type
 
-!kill chat [grupo_id]
+kill chat [grupo_id]
 Kick all memebers and delete group
 
-!kill realm [realm_id]
+kill realm [realm_id]
 Kick all members and delete realm
 
-!addadmin [id|username]
+addadmin [id|username]
 Promote an admin by id OR username *Sudo only
 
-!removeadmin [id|username]
+removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
 
-!list groups
+list groups
 Get a list of all groups
 
-!list realms
+list realms
 Get a list of all realms
 
-!log
+log
 Get a logfile of current group or realm
 
-!broadcast [text]
-!broadcast Hello !
+broadcast [text]
+broadcast Hello !
 Send text to all groups
 » Only sudo users can run this command
 
-!bc [group_id] [text]
-!bc 123456789 Hello !
+bc [group_id] [text]
+bc 123456789 Hello !
 This command will send text to [group_id]
-
-» U can use both "/" and "!" 
 
 » Only mods, owner and admin can add bots in group
 
